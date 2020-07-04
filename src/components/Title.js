@@ -6,7 +6,7 @@ const TITLES = [
     'a sports lover',
     'an avid learner'
 ];
-
+//gay
 class Title extends Component {
     state = { titleIndex: 0, fadeIn: true }; // state object containing two properties
 
