@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import Projects from './components/Projects';
 import SocialProfiles from './components/SocialProfiles';
 import Title from './components/Title';
-import Quotes from './components/Quotes';
 import styled from 'styled-components';
 import profile from './assets/profile.png';
 
@@ -41,8 +40,6 @@ class App extends Component {
                         <Projects />
                         <hr />
                         <SocialProfiles />
-                        <hr />
-                        <Quotes />
                     </div>
                 </StyledApp>
             </Fragment>
