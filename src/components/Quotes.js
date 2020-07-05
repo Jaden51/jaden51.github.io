@@ -18,7 +18,7 @@ class Quotes extends Component {
     return (
       <StyledQuotes>
         <div>
-          <h2>Highlighted Quote</h2>
+          <h2 className='header'>Highlighted Quote</h2>
           <p className='quote'>{content} - <em>{author}</em></p>
         </div>
       </StyledQuotes>
@@ -31,5 +31,14 @@ export default Quotes;
 const StyledQuotes = styled.div`
   .quote {
     margin: 20px;
+  }
+
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  .header {
+      font-family: 'Economica', sans-serif;
   }
 `;
