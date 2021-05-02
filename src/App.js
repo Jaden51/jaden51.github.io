@@ -3,7 +3,6 @@ import Projects from './components/Projects';
 import SocialProfiles from './components/SocialProfiles';
 import Title from './components/Title';
 import styled from 'styled-components';
-import profile from './assets/profile.png';
 
 class App extends Component {
     state = { displayBio: false };
@@ -16,11 +15,10 @@ class App extends Component {
         return (
             <StyledApp className="StyledApp">
                 <div>
-                    <img src={profile} alt='profile' className='profile' />
                     <h1 className="header">Hello!</h1>
                     <p>My name is Jaden.</p>
                     <Title />
-                    <p>Always looking for new projects to work on!</p>
+                    <p>I am always looking for new projects to work on!</p>
                     {
                         this.state.displayBio ? (
                             <div>

@@ -13,4 +13,4 @@ ReactDOM.render(
             <Route path='/jokes' render={() => <NavBar><Quotes /></NavBar>} />
         </Switch>
     </Router>, 
-    document.getElementById('root'));
+    document.getElementById('root')); 
