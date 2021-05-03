@@ -8,7 +8,7 @@ class NavBar extends Component {
             nav = $('.main-navigation');
 
         // toggle button
-        toggleButton.on('click', function (e) {
+        toggleButton.on('click', e => {
 
             e.preventDefault();
             toggleButton.toggleClass('is-clicked');
@@ -35,7 +35,7 @@ class NavBar extends Component {
             <header>
                 <div className="row">
                     <div className="top-bar">
-                        <a className="menu-toggle" href="#"><span>Menu</span></a>
+                        <a className="menu-toggle" href="#intro"><span>Menu</span></a>
 
                         <nav id="main-nav-wrap">
                             <ul className="main-navigation">

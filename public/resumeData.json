@@ -1,6 +1,7 @@
 {
   "main": {
     "name": "Jaden Hums",
+    "birthdate": "March 19, 2002",
     "occupation": "student",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "email": "jadenhums51@gmail.com",
@@ -11,7 +12,7 @@
       "state": "British Columbia",
       "zip": ""
     },
-    "website": "",
+    "website": "templink",
     "resumedownload": "https://drive.google.com/file/d/13nyMZ9ptHNt_a4Ek-TaPtVwHKMiBXyMu/view?usp=sharing",
     "social": [
       {
