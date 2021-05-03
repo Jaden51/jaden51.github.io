@@ -30,7 +30,7 @@ class App extends Component {
 
     render() {
         return (
-            <div>
+            <div className="App">
                 <Header data={this.state.resumeData.main} />
                 <About data={this.state.resumeData.main} />
                 <Resume data={this.state.resumeData.resume} />

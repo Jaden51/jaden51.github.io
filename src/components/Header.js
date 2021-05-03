@@ -6,12 +6,11 @@ class Header extends Component {
         if (this.props.data) {
             var data = this.props.data
             var name = data.name;
-            var city = data.address.city;
             var networks = data.social.map(network => {
                 return (
                     <li key={network.name}>
                         <a href={network.url} target="_blank" rel="noopener noreferrer">
-                            <i className={network.className}>{network.name}</i>
+                            <i className={network.className}></i>
                         </a>
                     </li>
                 )
@@ -19,30 +18,30 @@ class Header extends Component {
         }
 
         return (
-            <header>
+            <section id="intro">
 
-                <nav>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                        <li><a href="#portfolio">Projects</a></li>
-                    </ul>
-                </nav>
+                <div className="intro-overlay"></div>
+                <div className="intro-content">
+                    <div class="row">
 
-                <div>
-                    <div>
-                        <h1>I'm {name}</h1>
-                        <h3>I'm a second year Computer Science (hopefully) student at the University of {city}. I am an
-                            avid learner who loves imagining and creating ideas using technology.</h3>
-                        <hr />
-                        <ul className="social">
-                            {networks}
-                        </ul>
+                        <div lcass="col-twelve">
+                            <h5>Hello there!</h5>
+                            <h1>I'm {name}</h1>
+                            <p className="intro-position">
+                                <span>Student</span>
+                                <span>Aspiring Software Developper</span>
+                            </p>
+
+                            <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+                        </div>
                     </div>
                 </div>
 
-            </header>
+                <ul className="intro-social">
+                    {networks}
+                </ul>
+
+            </section>
         )
     }
 }
