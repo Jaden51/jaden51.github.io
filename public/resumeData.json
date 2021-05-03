@@ -1,121 +1,124 @@
 {
-    "main": {
-      "name": "Jaden Hums",
-      "occupation": "student",
-      "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-      "email": "jadenhums51@gmail.com",
-      "phone": "905-806-0672",
-      "address": {
-        "street": "",
-        "city": "Vancouver",
-        "state": "British Columbia",
-        "zip": ""
+  "main": {
+    "name": "Jaden Hums",
+    "occupation": "student",
+    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "email": "jadenhums51@gmail.com",
+    "phone": "905-806-0672",
+    "address": {
+      "street": "",
+      "city": "Vancouver",
+      "state": "British Columbia",
+      "zip": ""
+    },
+    "website": "",
+    "resumedownload": "https://drive.google.com/file/d/13nyMZ9ptHNt_a4Ek-TaPtVwHKMiBXyMu/view?usp=sharing",
+    "social": [
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/JadenHums",
+        "className": "fa fa-twitter"
       },
-      "website": "",
-      "resumedownload": "https://drive.google.com/file/d/13nyMZ9ptHNt_a4Ek-TaPtVwHKMiBXyMu/view?usp=sharing",
-      "social": [
-        {
-          "name": "twitter",
-          "url": "http://twitter.com/JadenHums",
-          "className": "fa fa-twitter"
-        },
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/jaden-hums-235b7a1a1/",
-          "className": "fa fa-linkedin"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com/jadenhums.51/?hl=en",
-          "className": "fa fa-instagram"
-        },
-        {
-          "name": "github",
-          "url": "https://github.com/Jaden51",
-          "className": "fa fa-github"
-        }
-      ]
-    },
-    "resume": {
-      "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-      "education": [
-        {
-          "school": "University of British Columbia",
-          "degree": "Bachelor of Science",
-          "graduated": "Expeceted April 2024",
-          "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-        }
-      ],
-      "work": [
-        {
-          "company": "",
-          "title": "",
-          "years": "",
-          "description": ""
-        },
-        {
-          "company": "",
-          "title": "",
-          "years": "",
-          "description": ""
-        }
-      ],
-      "skills": [
-        {
-          "name": "Git"
-        },
-        {
-          "name": "Java"
-        },
-        {
-            "name": "JavaScript"
-        },
-        {
-          "name": "React.js"
-        },
-        {
-          "name": "Node.js"
-        },
-        {
-            "name": "HTML"
-        },
-        {
-            "name": "CSS"
-        }
-      ]
-    },
-    "portfolio": {
-      "projects": [
-        {
-          "title": "Online Auction App",
-          "description": "App used for users to auction off items",
-          "image": "",
-          "url": "https://github.com/Jaden51/Online-Auction-App"
-        },
-        {
-          "title": "NBA Team Management Simulator",
-          "description": "",
-          "image": "",
-          "url": "https://github.com/Jaden51/Team-Management"
-        },
-        {
-          "title": "Furnify",
-          "description": "",
-          "image": "",
-          "url": "https://github.com/Jaden51/furniture-seller"
-        }
-      ]
-    },
-    "testimonials": {
-      "testimonials": [
-        {
-          "text": "",
-          "user": ""
-        },
-        {
-          "text": "",
-          "user": ""
-        }
-      ]
-    }
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/jaden-hums-235b7a1a1/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/jadenhums.51/?hl=en",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Jaden51",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "University of British Columbia",
+        "degree": "Bachelor of Science",
+        "graduated": "Expeceted April 2024",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work": [
+      {
+        "company": "",
+        "title": "",
+        "years": "",
+        "description": ""
+      },
+      {
+        "company": "",
+        "title": "",
+        "years": "",
+        "description": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "description": "I use Git for all my projects. First learned when I started making my first side projects."
+      },
+      {
+        "name": "Java",
+        "description": "Java was the first language I learned in High School. By far the language I am most familiar and comfortable with."
+      },
+      {
+        "name": "JavaScript",
+        "description": "JavaScript was the first language I decided to learn on my own outside of my classes. I made a simple TODO list application using JavaScript as my very first side project and have loved it ever since."
+      },
+      {
+        "name": "React.js",
+        "description": "After learning JavaScript, I decided to learn React. I have made most of my side projects using React. I love the component design the framework offers."
+      },
+      {
+        "name": "Node.js",
+        "description": "Node JS is the server side scripting-language I am most familiar with. I have only worked with it a small number of times on my side projects but I am always ready to learn more."
+      },
+      {
+        "name": "HTML",
+        "description": "Along with JavaScript, HTML was one of the first techonologies I learned during my studies outside of school."
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Online Auction App",
+        "description": "App used for users to auction off items",
+        "image": "",
+        "url": "https://github.com/Jaden51/Online-Auction-App"
+      },
+      {
+        "title": "NBA Team Management Simulator",
+        "description": "",
+        "image": "",
+        "url": "https://github.com/Jaden51/Team-Management"
+      },
+      {
+        "title": "Furnify",
+        "description": "",
+        "image": "",
+        "url": "https://github.com/Jaden51/furniture-seller"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "",
+        "user": ""
+      },
+      {
+        "text": "",
+        "user": ""
+      }
+    ]
   }
+}
