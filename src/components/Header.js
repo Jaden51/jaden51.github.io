@@ -29,7 +29,7 @@ class Header extends Component {
                             <h1>I'm {name}</h1>
                             <p className="intro-position">
                                 <span>Student</span>
-                                <span>Aspiring Software Developper</span>
+                                <span>Aspiring Software Developer</span>
                             </p>
 
                             <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>

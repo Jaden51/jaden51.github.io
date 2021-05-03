@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
+import NavBar from './components/NavBar';
 import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
@@ -31,6 +32,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
+                <NavBar />
                 <Header data={this.state.resumeData.main} />
                 <About data={this.state.resumeData.main} />
                 <Resume data={this.state.resumeData.resume} />
