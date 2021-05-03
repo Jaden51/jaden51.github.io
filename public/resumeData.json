@@ -1,0 +1,121 @@
+{
+    "main": {
+      "name": "Jaden Hums",
+      "occupation": "student",
+      "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+      "email": "jadenhums51@gmail.com",
+      "phone": "905-806-0672",
+      "address": {
+        "street": "",
+        "city": "British Columbia",
+        "state": "",
+        "zip": ""
+      },
+      "website": "",
+      "resumedownload": "",
+      "social": [
+        {
+          "name": "twitter",
+          "url": "http://twitter.com/JadenHums",
+          "className": "fa fa-twitter"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/jaden-hums-235b7a1a1/",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/jadenhums.51/?hl=en",
+          "className": "fa fa-instagram"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/Jaden51",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+      "education": [
+        {
+          "school": "University of British Columbia",
+          "degree": "Bachelor of Science",
+          "graduated": "Expeceted April 2024",
+          "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        }
+      ],
+      "work": [
+        {
+          "company": "",
+          "title": "",
+          "years": "",
+          "description": ""
+        },
+        {
+          "company": "",
+          "title": "",
+          "years": "",
+          "description": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Git"
+        },
+        {
+          "name": "Java"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+          "name": "React.js"
+        },
+        {
+          "name": "Node.js"
+        },
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "CSS"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "title": "Online Auction App",
+          "description": "App used for users to auction off items",
+          "image": "",
+          "url": "https://github.com/Jaden51/Online-Auction-App"
+        },
+        {
+          "title": "NBA Team Management Simulator",
+          "description": "",
+          "image": "",
+          "url": "https://github.com/Jaden51/Team-Management"
+        },
+        {
+          "title": "Furnify",
+          "description": "",
+          "image": "",
+          "url": "https://github.com/Jaden51/furniture-seller"
+        }
+      ]
+    },
+    "testimonials": {
+      "testimonials": [
+        {
+          "text": "",
+          "user": ""
+        },
+        {
+          "text": "",
+          "user": ""
+        }
+      ]
+    }
+  }
