@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import Header from './components/Header';
+import About from './components/About';
 
 class App extends Component {
     state = { resumeData: {} };
@@ -28,6 +29,7 @@ class App extends Component {
         return (
             <div>
                 <Header data={this.state.resumeData.main} />
+                <About data={this.state.resumeData.main} />
             </div>
         )
     }
