@@ -104,20 +104,26 @@
     "projects": [
       {
         "title": "Online Auction App",
-        "description": "App used for users to auction off items",
+        "description": "App used for users to auction off items.",
         "image": "",
         "url": "https://github.com/Jaden51/Online-Auction-App"
       },
       {
         "title": "NBA Team Management Simulator",
-        "description": "",
+        "description": "Application to simulate managing an NBA team.",
         "image": "",
         "url": "https://github.com/Jaden51/Team-Management"
       },
       {
         "title": "Furnify",
-        "description": "",
+        "description": "Hub for users to buy and sell used furniture (still need to style).",
         "image": "",
+        "url": "https://github.com/Jaden51/furniture-seller"
+      },
+      {
+        "title": "School Buddy",
+        "description": "Hub where users can ask questions to students at the universities they wish to attend.",
+        "image": "schoolbuddy.png",
         "url": "https://github.com/Jaden51/furniture-seller"
       }
     ]
