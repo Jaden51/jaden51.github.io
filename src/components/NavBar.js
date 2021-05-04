@@ -4,8 +4,7 @@ import $ from 'jquery';
 class NavBar extends Component {
 
     toggleMenu() {
-        var toggleButton = $('.menu-toggle'),
-            nav = $('.main-navigation');
+        var toggleButton = $('.menu-toggle'), nav = $('.main-navigation');
 
         // toggle button
         toggleButton.on('click', e => {
@@ -17,7 +16,7 @@ class NavBar extends Component {
         });
 
         // nav items
-        nav.find('li a').on("click", function () {
+        nav.find('li a').on("click", e => {
 
             // update the toggle button 		
             toggleButton.toggleClass('is-clicked');

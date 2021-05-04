@@ -1,8 +1,25 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 
 class Header extends Component {
 
     render() {
+
+        $('.smoothscroll').on('click', function (e) {
+
+            e.preventDefault();
+
+            var target = this.hash,
+                $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 800, 'swing', function () {
+                window.location.hash = target;
+            });
+
+        });
+        
         if (this.props.data) {
             var data = this.props.data
             var name = data.name;
@@ -22,9 +39,9 @@ class Header extends Component {
 
                 <div className="intro-overlay"></div>
                 <div className="intro-content">
-                    <div class="row">
+                    <div className="row">
 
-                        <div lcass="col-twelve">
+                        <div className="col-twelve">
                             <h5>Hello there!</h5>
                             <h1>I'm {name}</h1>
                             <p className="intro-position">
@@ -32,7 +49,7 @@ class Header extends Component {
                                 <span>Aspiring Software Developer</span>
                             </p>
 
-                            <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+                            <a className="button stroke smoothscroll" href="#about" title="">More About Me</a>
                         </div>
                     </div>
                 </div>

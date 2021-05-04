@@ -275,7 +275,7 @@ ol {
 	list-style: decimal;
 }
 ul {
-	list-style: disc;
+	list-style: none outside;
 }
 li {
 	display: list-item;
@@ -1022,6 +1022,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .grey-section {
 	background: #ebebeb;
 }
+.white-section {
+	background: white;
+}
 .grey-section p.lead {
 	color: #7d7d7d;
 }
@@ -1490,7 +1493,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background: #ebebeb;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -2595,5 +2598,23 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
+
+/**
+ * skills page - (_layout.scss)
+ * ------------------------------------------------------------------- 
+ */
+.feature-item {
+	text-align: center;
+	margin-top:2.5em;
+	padding-left:2em;
+	padding-right:2em;
+}
+
+.grid-container {
+	display: inline-grid;
+	padding: 10px;
+	grid-template-columns: auto auto auto;
+}
+
 
 /*# sourceMappingURL=main.css.map */

@@ -45,6 +45,12 @@
         "degree": "Bachelor of Science",
         "graduated": "Expeceted April 2024",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school": "Newmarket High School",
+        "degree": "High School Diploma",
+        "graduated": "June 2020",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work": [
@@ -63,28 +69,34 @@
     ],
     "skills": [
       {
-        "name": "Git",
-        "description": "I use Git for all my projects. First learned when I started making my first side projects."
-      },
-      {
         "name": "Java",
-        "description": "Java was the first language I learned in High School. By far the language I am most familiar and comfortable with."
+        "description": "Java was the first language I learned in High School. By far the language I am most familiar and comfortable with.",
+        "image": "java.jpg"
       },
       {
         "name": "JavaScript",
-        "description": "JavaScript was the first language I decided to learn on my own outside of my classes. I made a simple TODO list application using JavaScript as my very first side project and have loved it ever since."
+        "description": "JavaScript was the first language I decided to learn on my own outside of my classes. I made a simple TODO list application using JavaScript as my very first side project and have loved it ever since.",
+        "image": "js.jpg"
       },
       {
         "name": "React.js",
-        "description": "After learning JavaScript, I decided to learn React. I have made most of my side projects using React. I love the component design the framework offers."
+        "description": "After learning JavaScript, I decided to learn React. I have made most of my side projects using React. I love the component design the framework offers.",
+        "image": "react.jpg"
       },
       {
         "name": "Node.js",
-        "description": "Node JS is the server side scripting-language I am most familiar with. I have only worked with it a small number of times on my side projects but I am always ready to learn more."
+        "description": "Node JS is the server side scripting-language I am most familiar with. I have only worked with it a small number of times on my side projects but I am always ready to learn more.",
+        "image": "node.jpg"
+      },
+      {
+        "name": "MongoDB",
+        "description": "MongoDB was the first database I used for my first full stack project. Since I have only used it for one project, I am still intermediate but always looking to expand my knowledge.",
+        "image": "mongo.jpg"
       },
       {
         "name": "HTML",
-        "description": "Along with JavaScript, HTML was one of the first techonologies I learned during my studies outside of school."
+        "description": "Along with JavaScript, HTML was one of the first techonologies I learned during my studies outside of school.",
+        "image": "html.jpg"
       }
     ]
   },
