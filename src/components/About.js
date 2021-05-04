@@ -2,14 +2,22 @@ import React, { Component } from 'react';
 
 class About extends Component {
     render() {
-        if (this.props.data) {
-            var data = this.props.data
+        if (this.props.data.main) {
+            var data = this.props.data.main
             var name = data.name;
             var birthday = data.birthdate;
             var website = data.website;
             var bio = data.bio;
             var email = data.email;
             var resumeDownload = data.resumedownload;
+            var skills = this.props.data.resume.skills.map(skill => {
+                return (
+                    <li>
+                        <div className={"progress percent" + skill.percent}><span>{skill.percent}%</span></div>
+                        <strong>{skill.name}</strong>
+                    </li>
+                )
+            });
         }
 
         return (
@@ -21,20 +29,13 @@ class About extends Component {
                         <h1>Let Me Introduce Myself</h1>
 
                         <div className="intro-info">
-
-                            <img src="images/profile-pic.jpg" alt={name}></img>
-
                             <p className="lead">{bio}</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="row about-content">
-                    <div className="col-six tab-full">
-                        <p>
-                            {bio}
-                        </p>
-                    </div>
+
                     <div className="col-six tab-full">
                         <ul className="info-list">
                             <li>
@@ -53,6 +54,14 @@ class About extends Component {
                                 <strong>Email:</strong>
                                 <span>{email}</span>
                             </li>
+                        </ul>
+                    </div>
+                    <div class="col-six tab-full">
+
+                        <h3>Skills</h3>
+
+                        <ul class="skill-bars">
+                            {skills}
                         </ul>
                     </div>
                 </div>

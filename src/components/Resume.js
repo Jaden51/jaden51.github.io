@@ -6,20 +6,44 @@ class Resume extends Component {
         if (this.props.data) {
             var education = this.props.data.education.map(education => {
                 return (
-                    <div key={education.school} className="timeline-wrap">
-                        <div className="timeline-block">
+                        <div key={education.school} className="timeline-block">
+
                             <div className="timeline-ico">
-                                <i className="fa fa-briefcase"></i>
+                                <i className="fa fa-graduation-cap"></i>
                             </div>
+
                             <div className="timeline-header">
                                 <h3>{education.degree}</h3>
                                 <p>{education.graduated}</p>
                             </div>
+
                             <div className="timeline-content">
                                 <h4>{education.school}</h4>
                                 <p>{education.description}</p>
                             </div>
+                            
                         </div>
+                )
+            })
+
+            var work = this.props.data.work.map(work => {
+                return (
+                    <div key={work.title} className="timeline-block">
+
+                        <div className="timeline-ico">
+                            <i className="fa fa-briefcase"></i>
+                        </div>
+
+                        <div className="timeline-header">
+                            <h3>{work.title}</h3>
+                            <p>{work.years}</p>
+                        </div>
+
+                        <div className="timeline-content">
+                            <h4>{work.company}</h4>
+                            <p>{work.description}</p>
+                        </div>
+
                     </div>
                 )
             })
@@ -34,6 +58,8 @@ class Resume extends Component {
                     </div>
                 )
             })
+
+            var message = this.props.data.skillmessage;
         }
 
         return (
@@ -44,19 +70,30 @@ class Resume extends Component {
                         <h5>Resume</h5>
                         <h1>My Credentials</h1>
 
-                        <p className="lead">
-                            Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia
-                            nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.
-                        </p>
+                        <p className="lead">{message}</p>
 
                         <div className="row resume-timeline">
                             <div className="col-twelve resume-header">
                                 <h2>Education</h2>
                             </div>
                             <div className="col-twelve">
-                                {education}
+                                <div class="timeline-wrap">
+                                    {education}
+                                </div>
                             </div>
                         </div>
+
+                        <div class="row resume-timeline">
+                            <div class="col-twelve resume-header">
+                                <h2>Work Experience</h2>
+                            </div>
+                            <div class="col-twelve">
+                                <div class="timeline-wrap">
+                                    {work}
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <h1><span>Favourite Tech</span></h1>
                 </div>

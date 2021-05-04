@@ -34,8 +34,7 @@ class Projects extends Component {
                         <h1>Check Out My Work</h1>
 
                         <p class="lead">
-                            Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia
-                            nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.
+                            A few of my favourite side projects I have worked on over the years.
                         </p>
                     </div>
                 </div>

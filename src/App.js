@@ -5,6 +5,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -34,9 +35,10 @@ class App extends Component {
             <div className="App">
                 <NavBar />
                 <Header data={this.state.resumeData.main} />
-                <About data={this.state.resumeData.main} />
+                <About data={this.state.resumeData} />
                 <Resume data={this.state.resumeData.resume} />
                 <Projects data={this.state.resumeData.portfolio} />
+                <Contact data={this.state.resumeData.main}/>
                 <Footer data={this.state.resumeData.main} />
             </div>
         )
