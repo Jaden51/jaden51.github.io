@@ -101,7 +101,7 @@ export const resumeData =
             },
             {
                 name: "HTML",
-                description: "Along with JavaScript, HTML was one of the first techonologies I learned during my studies outside of school.",
+                description: "Along with JavaScript, HTML was one of the first technologies I learned during my studies outside of school.",
                 percent: "75",
                 image: "html.jpg"
             }
