@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 class App extends Component {
-    state = { data: { } };
+    state = { data: {} };
 
     componentDidMount() {
         this.setState({ data: resumeData })
