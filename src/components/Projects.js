@@ -7,7 +7,7 @@ class Projects extends Component {
             var projects = this.props.data.projects.map(project => {
                 var projectImage = 'images/portfolio/' + project.image;
                 return (
-                    <div className="bgrid folio-item">
+                    <div key={project.title} className="bgrid folio-item">
                         <div className="item-wrap">
                             <img src={projectImage} alt="Liberty" />
                             <a href={project.url} className="overlay">
@@ -29,11 +29,11 @@ class Projects extends Component {
         return (
             <section id="portfolio">
                 <div className="row section-intro">
-                    <div class="col-twelve">
+                    <div className="col-twelve">
                         <h5>Portfolio</h5>
                         <h1>Check Out My Work</h1>
 
-                        <p class="lead">
+                        <p className="lead">
                             A few of my favourite side projects I have worked on over the years.
                         </p>
                     </div>

@@ -33,24 +33,24 @@ class Footer extends Component {
 
         return (
             <footer>
-                <div class="row">
+                <div className="row">
 
-                    <div class="col-six tab-full pull-right social">
+                    <div className="col-six tab-full pull-right social">
 
-                        <ul class="footer-social">
+                        <ul className="footer-social">
                             {networks}
                         </ul>
 
                     </div>
 
-                    <div class="col-six tab-full">
-                        <div class="copyright">
+                    <div className="col-six tab-full">
+                        <div className="copyright">
                             <span>Styled by <a href="http://www.styleshout.com/">styleshout</a></span>
                         </div>
                     </div>
 
                     <div id="go-top">
-                        <a class="smoothscroll" title="Back to Top" href="#intro"><i class="fa fa-long-arrow-up"></i></a>
+                        <a className="smoothscroll" title="Back to Top" href="#intro"><i className="fa fa-long-arrow-up"></i></a>
                     </div>
 
                 </div>

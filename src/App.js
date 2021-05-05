@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
+import { resumeData } from './data/resumeData';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 import About from './components/About';
@@ -9,37 +9,23 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 class App extends Component {
-    state = { resumeData: {} };
-
-    getResumeData() {
-        $.ajax({
-            url: '/resumeData.json',
-            dataType: 'json',
-            cache: false,
-            success: function (data) {
-                this.setState({ resumeData: data });
-            }.bind(this),
-            error: function (xhr, status, err) {
-                console.log(err);
-                alert(err);
-            }
-        });
-    }
+    state = { data: { } };
 
     componentDidMount() {
-        this.getResumeData();
+        this.setState({ data: resumeData })
     }
 
     render() {
+
         return (
             <div className="App">
                 <NavBar />
-                <Header data={this.state.resumeData.main} />
-                <About data={this.state.resumeData} />
-                <Resume data={this.state.resumeData.resume} />
-                <Projects data={this.state.resumeData.portfolio} />
-                <Contact data={this.state.resumeData.main}/>
-                <Footer data={this.state.resumeData.main} />
+                <Header data={this.state.data.main} />
+                <About data={this.state.data} />
+                <Resume data={this.state.data.resume} />
+                <Projects data={this.state.data.portfolio} />
+                <Contact data={this.state.data.main}/>
+                <Footer data={this.state.data.main} />
             </div>
         )
     }

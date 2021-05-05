@@ -12,7 +12,7 @@ class About extends Component {
             var resumeDownload = data.resumedownload;
             var skills = this.props.data.resume.skills.map(skill => {
                 return (
-                    <li>
+                    <li key={skill.name}>
                         <div className={"progress percent" + skill.percent}><span>{skill.percent}%</span></div>
                         <strong>{skill.name}</strong>
                     </li>
@@ -56,11 +56,11 @@ class About extends Component {
                             </li>
                         </ul>
                     </div>
-                    <div class="col-six tab-full">
+                    <div className="col-six tab-full">
 
                         <h3>Skills</h3>
 
-                        <ul class="skill-bars">
+                        <ul className="skill-bars">
                             {skills}
                         </ul>
                     </div>

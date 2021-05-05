@@ -21,7 +21,7 @@ class Resume extends Component {
                                 <h4>{education.school}</h4>
                                 <p>{education.description}</p>
                             </div>
-                            
+
                         </div>
                 )
             })
@@ -77,18 +77,18 @@ class Resume extends Component {
                                 <h2>Education</h2>
                             </div>
                             <div className="col-twelve">
-                                <div class="timeline-wrap">
+                                <div className="timeline-wrap">
                                     {education}
                                 </div>
                             </div>
                         </div>
 
-                        <div class="row resume-timeline">
-                            <div class="col-twelve resume-header">
+                        <div className="row resume-timeline">
+                            <div className="col-twelve resume-header">
                                 <h2>Work Experience</h2>
                             </div>
-                            <div class="col-twelve">
-                                <div class="timeline-wrap">
+                            <div className="col-twelve">
+                                <div className="timeline-wrap">
                                     {work}
                                 </div>
                             </div>

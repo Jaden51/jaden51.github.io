@@ -13,8 +13,8 @@ class Contact extends Component {
         return (
             <section id="contact">
 
-                <div class="row section-intro">
-                    <div class="col-twelve">
+                <div className="row section-intro">
+                    <div className="col-twelve">
 
                         <h5>Contact</h5>
                         <h1>I'd Love To Hear From You.</h1>
@@ -24,8 +24,8 @@ class Contact extends Component {
 
                 <div className="row contact-info">
                     <div className="col-four tab-full">
-                        <div class="icon">
-                            <i class="icon-pin"></i>
+                        <div className="icon">
+                            <i className="icon-pin"></i>
                         </div>
 
                         <h5>Where to find me</h5>
@@ -33,10 +33,10 @@ class Contact extends Component {
 
                     </div>
 
-                    <div class="col-four tab-full collapse">
+                    <div className="col-four tab-full collapse">
 
-                        <div class="icon">
-                            <i class="icon-mail"></i>
+                        <div className="icon">
+                            <i className="icon-mail"></i>
                         </div>
 
                         <h5>Email Me At</h5>
@@ -44,10 +44,10 @@ class Contact extends Component {
 
                     </div>
 
-                    <div class="col-four tab-full">
+                    <div className="col-four tab-full">
 
-                        <div class="icon">
-                            <i class="icon-phone"></i>
+                        <div className="icon">
+                            <i className="icon-phone"></i>
                         </div>
 
                         <h5>Call Me At</h5>
