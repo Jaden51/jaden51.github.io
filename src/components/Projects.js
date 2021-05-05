@@ -10,7 +10,7 @@ class Projects extends Component {
                     <div key={project.title} className="bgrid folio-item">
                         <div className="item-wrap">
                             <img src={projectImage} alt="Liberty" />
-                            <a href={project.url} className="overlay">
+                            <a href={project.url} className="overlay" target="_blank" rel="noopener noreferrer">
                                 <div className="folio-item-table">
                                     <div className="folio-item-cell">
                                         <h3 className="folio-title">{project.title}</h3>
