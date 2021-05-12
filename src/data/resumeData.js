@@ -125,7 +125,7 @@ export const resumeData =
                 title: "School Buddy",
                 description: "Hub where users can ask questions to students at the universities they wish to attend.",
                 image: "schoolbuddy.png",
-                url: "https://github.com/Jaden51/furniture-seller"
+                url: "https://github.com/Jaden51/school-buddy"
             },
             {
                 title: "NBA Team Management Simulator",
