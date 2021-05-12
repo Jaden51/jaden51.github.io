@@ -51,7 +51,7 @@ class Contact extends Component {
                         </div>
 
                         <h5>Call Me At</h5>
-                        <p>Phone: (905) 806 0672</p>
+                        <p>Phone: +1 (905) 806 0672</p>
 
                     </div>
 
