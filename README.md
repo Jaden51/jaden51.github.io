@@ -4,4 +4,4 @@
 
 ## Description
 
-My personal resume website made with ReactJS.
+My personal portfolio website made with ReactJS.
