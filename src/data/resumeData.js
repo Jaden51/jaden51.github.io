@@ -118,7 +118,7 @@ export const resumeData =
             {
                 title: "Furnify",
                 description: "Hub where people can sell their used furniture, we refurbish it and sell it (still need to style).",
-                image: "furnify.png",
+                image: "furnify2.png",
                 url: "https://github.com/Jaden51/furniture-seller"
             },
             {
