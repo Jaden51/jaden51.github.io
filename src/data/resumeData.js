@@ -45,7 +45,7 @@ export const resumeData =
                 school: "University of British Columbia",
                 degree: "Bachelor of Science",
                 graduated: "Expected April 2024",
-                description: "Flying across Canada from Toronto to Vancouver to study has been a great adventure. I am currently studying a Bachelor of Science in Computer Science (hopefully) and hope to achieve a more thorough understanding of concepts and theory of programming."
+                description: "I am currently a second year student studying a Bachelor of Science in Computer Science and hope to achieve a more thorough understanding of concepts and theory of programming."
             },
             {
                 school: "Newmarket High School",
